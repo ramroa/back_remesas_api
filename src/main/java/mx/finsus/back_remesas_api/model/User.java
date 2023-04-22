@@ -28,6 +28,7 @@ public class User {
     @OneToOne
     @JoinColumn(name = "curp")
     private AppData data;
+    /**/
 
 
 
