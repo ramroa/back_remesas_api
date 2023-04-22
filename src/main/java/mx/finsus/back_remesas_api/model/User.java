@@ -24,7 +24,7 @@ public class User {
     private String level;
     @Column(name = "phone")
     private String phone;
-    /**/
+
     @OneToOne
     @JoinColumn(name = "curp")
     private AppData data;
